@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Packages - Hormariye Tech</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../src/images/hormariyelogo.png" alt="Hormariye Tech" height="40">
+                Hormariye Tech
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5" style="background: linear-gradient(135deg, var(--primary-color), #0A2E3D); color: white; margin-top: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold">Choose Your Package</h1>
+                    <p class="lead">Flexible pricing plans designed to meet your business needs and budget</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Toggle -->
+    <section class="pricing-toggle py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <div class="pricing-switch">
+                        <span class="switch-label">Monthly</span>
+                        <div class="form-check form-switch d-inline-block mx-3">
+                            <input class="form-check-input" type="checkbox" id="pricingToggle">
+                            <label class="form-check-label" for="pricingToggle"></label>
+                        </div>
+                        <span class="switch-label">Yearly <span class="badge bg-success">Save 20%</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Packages -->
+    <section class="main-packages py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3>Starter</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="999" data-yearly="799">999</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="package-description">Perfect for small businesses and startups</p>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Basic Web Development</li>
+                            <li><i class="fas fa-check"></i> 5 Pages Website</li>
+                            <li><i class="fas fa-check"></i> Mobile Responsive Design</li>
+                            <li><i class="fas fa-check"></i> Basic SEO Optimization</li>
+                            <li><i class="fas fa-check"></i> Contact Form</li>
+                            <li><i class="fas fa-check"></i> Social Media Integration</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            <li><i class="fas fa-check"></i> 1 Month Free Hosting</li>
+                        </ul>
+                        <div class="package-footer">
+                            <a href="../index.html#contact" class="btn btn-primary btn-block">Get Started</a>
+                            <p class="setup-fee">No setup fees</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card featured">
+                        <div class="package-badge">Most Popular</div>
+                        <div class="package-header">
+                            <h3>Professional</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="1999" data-yearly="1599">1999</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="package-description">Ideal for growing businesses</p>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Advanced Web Development</li>
+                            <li><i class="fas fa-check"></i> 15 Pages Website</li>
+                            <li><i class="fas fa-check"></i> E-commerce Integration</li>
+                            <li><i class="fas fa-check"></i> Advanced SEO & Analytics</li>
+                            <li><i class="fas fa-check"></i> Custom Admin Panel</li>
+                            <li><i class="fas fa-check"></i> Payment Gateway Integration</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> 3 Months Free Hosting</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            <li><i class="fas fa-check"></i> Security Features</li>
+                        </ul>
+                        <div class="package-footer">
+                            <a href="../index.html#contact" class="btn btn-primary btn-block">Get Started</a>
+                            <p class="setup-fee">No setup fees</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="3999" data-yearly="3199">3999</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="package-description">For large-scale businesses</p>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Custom Web Application</li>
+                            <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                            <li><i class="fas fa-check"></i> Advanced E-commerce Features</li>
+                            <li><i class="fas fa-check"></i> AI-Powered Analytics</li>
+                            <li><i class="fas fa-check"></i> Custom Integrations</li>
+                            <li><i class="fas fa-check"></i> Dedicated Project Manager</li>
+                            <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                            <li><i class="fas fa-check"></i> 6 Months Free Hosting</li>
+                            <li><i class="fas fa-check"></i> Advanced Security</li>
+                            <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                            <li><i class="fas fa-check"></i> Backup & Recovery</li>
+                        </ul>
+                        <div class="package-footer">
+                            <a href="../index.html#contact" class="btn btn-primary btn-block">Get Started</a>
+                            <p class="setup-fee">No setup fees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services py-5" style="background: var(--light-gray);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Additional Services</h2>
+                <p class="section-text">Enhance your package with these optional services</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon">
+                        <div class="addon-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>SEO Package</h4>
+                        <p>Comprehensive search engine optimization to improve your website's visibility.</p>
+                        <div class="addon-price">$299/month</div>
+                        <a href="../index.html#contact" class="btn btn-outline-primary btn-sm">Add Service</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon">
+                        <div class="addon-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Analytics Setup</h4>
+                        <p>Advanced analytics and reporting to track your website's performance.</p>
+                        <div class="addon-price">$199/month</div>
+                        <a href="../index.html#contact" class="btn btn-outline-primary btn-sm">Add Service</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon">
+                        <div class="addon-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Security Package</h4>
+                        <p>Enhanced security features including SSL certificates and malware protection.</p>
+                        <div class="addon-price">$149/month</div>
+                        <a href="../index.html#contact" class="btn btn-outline-primary btn-sm">Add Service</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon">
+                        <div class="addon-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Maintenance</h4>
+                        <p>Regular updates, backups, and technical support to keep your website running smoothly.</p>
+                        <div class="addon-price">$399/month</div>
+                        <a href="../index.html#contact" class="btn btn-outline-primary btn-sm">Add Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-text">Get answers to common questions about our packages</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                    What's included in the setup process?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our setup process includes initial consultation, requirements gathering, design mockups, development, testing, and deployment. We also provide training and documentation for your team.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    Can I upgrade or downgrade my package?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, you can upgrade or downgrade your package at any time. We'll work with you to ensure a smooth transition and adjust your billing accordingly.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                    Do you offer custom solutions?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! If our standard packages don't meet your needs, we can create a custom solution tailored specifically to your requirements and budget.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                    What kind of support do you provide?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We provide comprehensive support including technical assistance, bug fixes, updates, and maintenance. Support response times vary by package level, with Enterprise clients receiving priority support.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                    How long does it take to complete a project?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Project timelines vary depending on complexity and package level. Starter packages typically take 2-4 weeks, Professional packages 4-8 weeks, and Enterprise packages 8-16 weeks or more for complex applications.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison-section py-5" style="background: var(--light-gray);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Package Comparison</h2>
+                <p class="section-text">Compare features across all packages</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th class="text-center">Starter</th>
+                            <th class="text-center">Professional</th>
+                            <th class="text-center">Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pages</td>
+                            <td class="text-center">5</td>
+                            <td class="text-center">15</td>
+                            <td class="text-center">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>E-commerce</td>
+                            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                        </tr>
+                        <tr>
+                            <td>SEO Optimization</td>
+                            <td class="text-center">Basic</td>
+                            <td class="text-center">Advanced</td>
+                            <td class="text-center">Premium</td>
+                        </tr>
+                        <tr>
+                            <td>Support</td>
+                            <td class="text-center">24/7</td>
+                            <td class="text-center">Priority</td>
+                            <td class="text-center">Premium</td>
+                        </tr>
+                        <tr>
+                            <td>Project Manager</td>
+                            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Custom Integrations</td>
+                            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                            <td class="text-center">Limited</td>
+                            <td class="text-center">Unlimited</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section py-5" style="background: linear-gradient(135deg, var(--primary-color), #0A2E3D); color: white;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="mb-4">Ready to Choose Your Package?</h2>
+                    <p class="lead mb-4">Contact us today for a free consultation and custom quote tailored to your needs.</p>
+                    <a href="../index.html#contact" class="btn btn-primary btn-lg me-3">Get Free Quote</a>
+                    <a href="tel:+15551234567" class="btn btn-outline-light btn-lg">Call Us Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="footer-brand">
+                    <img src="../src/images/hormariyelogo.png" alt="Hormariye Tech" height="30">
+                    <span>Hormariye Tech</span>
+                </div>
+                <p class="footer-text">Innovative technology solutions for modern businesses.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="footer-copyright">&copy; 2024 Hormariye Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="../js/main.js"></script>
+</body>
+</html>
+
+    
+    <!-- Package Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const pricingToggle = document.getElementById('pricingToggle');
+            const amounts = document.querySelectorAll('.amount');
+            
+            pricingToggle.addEventListener('change', function() {
+                amounts.forEach(amount => {
+                    const monthly = amount.getAttribute('data-monthly');
+                    const yearly = amount.getAttribute('data-yearly');
+                    
+                    if (this.checked) {
+                        amount.textContent = yearly;
+                    } else {
+                        amount.textContent = monthly;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
